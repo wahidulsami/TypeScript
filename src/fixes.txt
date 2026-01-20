@@ -9,12 +9,6 @@ add  another  new masage  fro bug
 fixed  1
 fixed  2 
 fixed  3
-<<<<<<< HEAD
-fixed  4
-
-2027 is coming  
-=======
 fixed  4  
 
 new  2026 now  
->>>>>>> bug-fix
