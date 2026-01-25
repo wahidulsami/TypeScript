@@ -22,3 +22,53 @@ const table: number[][]  =  [
     [4 , 5, 6]
 ]
 
+let  chaituple: [string  , boolean ];
+chaituple = ["masala" ,  true]
+// chaituple = [20 , "geiger "]
+
+
+let  userInfo :  [string ,  number , boolean?]
+
+userInfo = ["amir" , 100]
+userInfo =  ["sami" , 100 , true]
+
+
+// readn  only tuple  
+ const  location : readonly [number , number] =  [28.45 , 58.22 ]
+
+const chaiIteams : [name: string ,  price: number]  =  [
+    "masala",
+    24
+]
+
+
+// enum 
+enum CupSize {
+    large ,  medium ,  small
+}
+
+const size  =  CupSize.small
+
+
+enum status {
+    pending =100,
+    seved  ,//101
+    cancled //102
+}
+
+enum chaitype {
+    MASALA = 'MASALA',
+    GINGER = 'GINGER'
+}
+
+
+
+function makechai (type : chaitype) {
+    console.log(`making ${chaitype}`)
+}
+
+makechai(chaitype.GINGER)
+// makechai("masala")
+
+
+
