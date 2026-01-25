@@ -96,5 +96,4 @@ if ("spicylevel"  in  order) {
 
 function isarrway(arr: unknown): arr is Array<any> {
     return Array.isArray(arr);
-}
-
+}                                                  
